@@ -9,7 +9,11 @@ Available as a preprint on MedArXiv: https://www.medrxiv.org/content/10.1101/202
 
 ## Overview
 
-This repository provides the implementation for our **anatomy-guided, modality-agnostic segmentation framework** for neuroimaging abnormalities. The approach is designed to improve robustness and generalization when MRI modality availability is not a common scenario in real-world clinical settings. Our method leverages anatomical context and introduces a novel data augmentation strategy, **Region ModalMix**, to support accurate segmentation even when one or more MRI sequences are missing.
+![image](absFig.png)
+
+This repository provides the implementation for our **anatomy-guided, modality-agnostic segmentation framework** for neuroimaging abnormalities. The approach is designed to improve model robustness and generalization under variable or missing MRI modality conditions, which is a common scenario in real-world clinical settings. Central to our work is **Region ModalMix** (RMM), a novel data augmentation strategy that leverages brain parcellation masks to mix information across modalities within anatomical regions. In so doing, RMM enhances the model’s ability to learn spatially coherent, modality-agnostic features that generalize across a wide range of missing data scenarios.
+Our method also generalizes well to out-of-distribution data, further underscoring its robustness and utility in clinically realistic settings with distribution shifts, including anatomical variability in post-operative cases.
+Our framework is applicable to multimodal neuroimaging pipelines more generalizable abnormality detection under heterogeneous data availability. 
 
 ## Setup
 

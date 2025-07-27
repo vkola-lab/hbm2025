@@ -1,9 +1,8 @@
-# Anatomy-Guided, Modality-Agnostic Segmentation of Neuroimaging Abnormalities
+# Anatomy-guided, modality-agnostic segmentation of neuroimaging abnormalities
 
 **Authors:** Diala Lteif, Divya Appapogu, Sarah A. Bargal, Bryan A. Plummer, Vijaya B. Kolachalama  
-**Journal:** *Submitted to Human Brain Mapping*
 
-Available as a preprint on MedArXiv: https://www.medrxiv.org/content/10.1101/2025.04.29.25326682v1 .
+Available as a preprint on medrXiv: https://www.medrxiv.org/content/10.1101/2025.04.29.25326682v1 .
 
 ---
 

@@ -1,0 +1,7 @@
+name: warmup_cosine
+convert_to_batch: False
+params:
+  warmup_steps: 10
+  t_total: 1000
+  cycles: ~
+  last_epoch: ~

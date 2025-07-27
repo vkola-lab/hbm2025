@@ -1,0 +1,7 @@
+name: adamw
+params:
+  lr: 0.0002
+  eps: 1e-8
+  weight_decay: 0.0001
+  betas: [0.9, 0.999]
+  amsgrad: True

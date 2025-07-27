@@ -1,0 +1,5 @@
+name: adagrad
+params:
+  lr: 1e-3
+  eps: 1e-10
+  weight_decay: 5.0e-4

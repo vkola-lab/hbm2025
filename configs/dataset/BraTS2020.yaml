@@ -1,0 +1,15 @@
+name: "BRATS2020"
+test_name: "BRATS2020"
+img_size: 128
+labels: ["IMAGEVIDENCE"]
+train_path: "/projectnb/ivc-ml/dlteif/BraTS2020/BRATS2020_Training_none_npy/train.txt"
+val_path: "/projectnb/ivc-ml/dlteif/BraTS2020/BRATS2020_Training_none_npy/test.txt"
+test_path: "/projectnb/ivc-ml/dlteif/BraTS2020/BRATS2020_Training_none_npy/test.txt"
+inflate: False
+stripped: ~
+modal: ["flair","t1","t1ce","t2"]
+load_segmentations: ~
+apply_mask: null
+random_masking: False
+split_ratio: 0.6
+seed: ~

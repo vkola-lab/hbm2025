@@ -1,0 +1,7 @@
+type: Conv1D
+patch_size: ~
+depth: ~
+dim_head: ~
+heads: ~
+use_cls_token: ~
+dropout: ~

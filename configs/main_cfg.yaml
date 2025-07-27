@@ -1,0 +1,14 @@
+defaults:
+  - train: default.yaml
+  - model: mmformer.yaml
+  - scheduler: cosine.yaml
+  - dataset: naccIE.yaml
+  - logging: wandb.yaml
+  - hardware: default.yaml
+  - eval: val
+
+optimizer: ???
+test: False
+
+hydra:
+  mode: MULTIRUN

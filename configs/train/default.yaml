@@ -1,0 +1,31 @@
+batch_strategy: None
+resume_train: False
+resume_model: null
+checkpoint_key: model
+noamp: False
+grad_clip: True
+max_grad_norm: 1.0
+batch_size: 8
+accum_iter: 4
+num_epochs: 200
+iter_per_epoch: 200
+start_epoch: ~
+debug: True
+deterministic: True
+seed: 109
+logdir: null
+sampling: "over"
+smote_strategy: ~
+augment: "none"
+## TPS Transform (Augmentation)
+tps_prob: 0.0
+
+## Supervised Loss
+criterion: "CE"
+label_smoothing: 0.0
+
+## SSL
+cont_lambda: 0.2
+cont_alpha: ~
+cont_beta: ~
+region_fusion_start_epoch: 0

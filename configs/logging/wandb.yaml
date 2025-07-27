@@ -1,0 +1,10 @@
+wandb:
+  use_wandb: True
+  log_freq: 1
+  run_name: ~  # set to ~ for auto setting
+  project_name: "MultiModalMRI"  # set to ~ for auto setting
+  entity: "dlteif"
+  log_code: "/projectnb/ivc-ml/dlteif/multimodalMRI/"
+  sweep_id: ~
+use_py_log: False
+scc_jobid: ~

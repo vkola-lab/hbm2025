@@ -1,0 +1,35 @@
+defaults:
+  - train: default.yaml
+  - model: mmformer.yaml
+  - scheduler: warmup_poly.yaml
+  - dataset: GliomaPost.yaml
+  - logging: wandb.yaml
+  - hardware: default.yaml
+  - eval: val
+
+
+optimizer: ???
+test: False
+
+train:
+  num_epochs: 1000
+  accum_iter: 1
+  criterion: "DSC"
+  iter_per_epoch: 200
+  grad_clip: False
+  noamp: True
+
+dataset:
+  img_size: ~
+  load_segmentations: ~
+  random_masking: ~
+
+model:
+  modal: ["flair","t1","t1ce","t2"]
+  num_cls: 4
+  img_size: ~
+  patch_size: ~
+  classifier: null
+
+hydra:
+  mode: MULTIRUN

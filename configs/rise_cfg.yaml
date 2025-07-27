@@ -1,0 +1,21 @@
+defaults:
+  - train: naccIE.yaml
+  - model: mmformer.yaml
+  - scheduler: cosine.yaml
+  - dataset: naccIE.yaml
+  - logging: wandb.yaml
+  - hardware: default.yaml
+  - eval: val
+  - region_prompt: default.yaml
+  - modal_prompt: vit_small.yaml
+
+optimizer: ???
+test: False
+modal_prompt:
+  embed_module: ???
+
+region_prompt:
+  embed_module: ???
+
+hydra:
+  mode: MULTIRUN

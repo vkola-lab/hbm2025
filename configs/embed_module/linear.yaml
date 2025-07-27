@@ -1,0 +1,7 @@
+type: Linear
+patch_size: ~
+depth: 1
+dim_head: ~
+heads: ~
+use_cls_token: ~
+dropout: ~

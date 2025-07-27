@@ -1,0 +1,3 @@
+name: warmup_poly
+convert_to_batch: False
+warmup_steps: 0

@@ -1,0 +1,10 @@
+wandb:
+  use_wandb: False
+  log_freq: ~
+  run_name: ~  # set to ~ for auto setting
+  project_name: ~
+  entity: ~
+  log_code: ~
+  sweep_id: null
+use_py_log: False
+scc_jobid: ~

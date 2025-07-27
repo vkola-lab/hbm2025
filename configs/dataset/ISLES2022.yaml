@@ -1,0 +1,15 @@
+name: "ISLES2022"
+test_name: "ISLES2022"
+img_size: ~
+labels: null
+train_path: "/projectnb/ivc-ml/dlteif/ISLES-2022/ISLES-2022RAW/"
+val_path: null
+test_path: null
+inflate: False
+stripped: ~
+modal: ["flair","dwi","adc"]
+load_segmentations: ~
+apply_mask: null
+random_masking: False
+split_ratio: 0.7
+seed: ~

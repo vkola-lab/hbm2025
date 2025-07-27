@@ -1,0 +1,8 @@
+num_workers: 2
+device: cuda    # "cuda:0"  ## cuda whose idx is 0
+multi_gpus: ~ # "DataParallel"  # {ddp, DataParallel, None}
+rank: ~
+world_size: ~
+gpu: ~
+dist_url: ~
+master_port: ~

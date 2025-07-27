@@ -1,0 +1,7 @@
+batch_size: 1 ## to be set automatically 
+write_raw_score: True
+suffix: "_best"
+save_path: ~
+combination: ~
+apply_mask: ~
+wandb_artifact: ~

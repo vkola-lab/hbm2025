@@ -1,0 +1,7 @@
+batch_size: 8 ## to be set automatically 
+write_raw_score: false
+suffix: "_last"
+save_path: str
+combination: ~
+apply_mask: ~
+wandb_artifact: false

@@ -2,7 +2,7 @@
 
 **Authors:** Diala Lteif, Divya Appapogu, Sarah A. Bargal, Bryan A. Plummer, Vijaya B. Kolachalama  
 
-Available as a preprint on medrXiv: https://www.medrxiv.org/content/10.1101/2025.04.29.25326682v1 .
+This work is published in _Human Brain Mapping_ (https://doi.org/10.1002/hbm.70329).
 
 ---
 
